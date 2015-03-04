@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/manuscreen1"
+    android:scaleType="fitXY">
+    
+
+
+<!--     <ImageView 
+          android:id="@+id/InnerMenuBackground"
+          android:src="@drawable/manuscreen1"
+          android:adjustViewBounds="true"
+          android:gravity="center_vertical"
+          android:scaleType="fitXY"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          /> -->
+    	    <RelativeLayout android:id="@+id/linearLayoutm" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_gravity="top" android:layout_height="wrap_content">
+	          </RelativeLayout> 
+<!--   <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:gravity="center"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+	    android:text="How to select and crop image"/> -->
+    
+   <ImageView 
+		android:id="@+id/Camera"
+		android:layout_width="wrap_content" 		 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="180dp"
+		android:src="@drawable/camerabutton"
+		
+		/>
+	
+    <ImageView 
+		android:id="@+id/Gallery"
+		android:layout_below="@+id/Camera"
+		android:layout_width="wrap_content" 		 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="15dp"
+        android:src="@drawable/gallarybutton"
+		/>
+    
+       <ImageView 
+		android:id="@+id/Images"
+	   android:layout_below="@+id/Gallery"
+		android:layout_width="wrap_content" 		 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="10dp"
+		android:src="@drawable/imagebutton"
+		
+		/>
+	
+    <ImageView 
+		android:id="@+id/Cancel"
+		android:layout_width="wrap_content" 		 
+		android:layout_height="wrap_content"
+		android:src="@drawable/cancelbutton"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="15dp"
+        android:layout_below="@+id/Images"
+		/>
+<!-- 	<Button 
+		android:id="@+id/camera"
+	    android:layout_marginTop="30dp"
+		android:layout_width="match_parent" 		 
+		android:layout_height="wrap_content"
+		android:visibility="visible"
+		android:text="Camera" />
+	
+    <Button 
+		android:id="@+id/galary"
+		android:layout_width="match_parent" 		 
+		android:layout_height="wrap_content"
+        android:layout_below="@+id/camera"
+        android:layout_marginTop="30dp"
+		android:visibility="visible"
+		android:text="Galary"/> -->
+		
+<!--<Button
+          android:id="@+id/centerbutton"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_toLeftOf="@+id/rightbutton"
+          android:text="Galary"
+    /> -->
+		
+	<ImageView
+		android:id="@+id/iv_photo"
+		android:layout_marginBottom="60dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="fill_parent" 
+		android:visibility="gone"		 
+		android:layout_height="wrap_content"/>
+	
+<!-- 		<SlidingDrawer android:id="@+id/split_slider"
+					android:layout_alignParentBottom="true"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:topOffset="230dip"
+					android:visibility="invisible"
+					android:handle="@+id/split_image"
+					android:content="@+id/split_numbers">
+		
+		<Button android:id="@id/split_image"
+				android:text="@string/button_text"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"/>
+		
+		<LinearLayout android:id="@id/split_numbers"
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+					    android:layout_height="match_parent">
+	
+						<Button android:id="@+id/three"
+								android:text="@string/three"
+								android:clickable="true"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"/>
+						
+						<Button android:id="@+id/four"
+								android:text="@string/four"
+								android:clickable="true"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"/>
+				
+						<Button android:id="@+id/five"
+								android:text="@string/five"
+								android:clickable="true"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"/>
+								
+		</LinearLayout>
+	</SlidingDrawer> -->
+		
+</RelativeLayout>

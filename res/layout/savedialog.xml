@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dip"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/dialog"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="7px" 
+    >
+    <TextView android:id="@+id/text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.75" 
+              android:textSize="30px"
+              android:textStyle="bold"
+              android:textColor="#FFF"
+              android:text="NAME: "
+              />
+<EditText android:id="@+id/nametextbox"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_weight="0.25" 
+android:singleLine="true"
+android:paddingRight="7px" 
+android:maxLines="1"/>                  
+</LinearLayout>    
+
+<Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="7px"
+        android:paddingRight="7px" 
+        android:text="SAVE" 
+        android:id="@+id/Save"/>    
+</LinearLayout>    

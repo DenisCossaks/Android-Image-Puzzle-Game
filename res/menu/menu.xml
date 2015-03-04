@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/sound"
+        android:icon="@drawable/sound_on"
+         android:title="Sound ON / OFF" />
+        <item android:id="@+id/scores"
+        android:icon="@drawable/score" 
+        android:title="Scores" />
+        <item android:id="@+id/exit"
+        android:icon="@drawable/exit" 
+        android:title="Exit" />
+</menu>

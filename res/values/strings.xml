@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ImageActivity!</string>
+    <string name="app_name">Photo Puzzle</string>
+    <string name="button_text">Split Image</string>
+    
+    <!-- String values for the contents of the
+     sliding drawer which represents how many chunks the image should split -->
+    <string name="three">3*3</string>
+    <string name="four">4*4</string>
+    <string name="five">5*5</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dip"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/dialog"
+    >
+
+    <TextView android:id="@+id/title" android:layout_height="wrap_content"
+        android:textColor="#fff" 
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:layout_width="wrap_content" 
+        android:text=" Congratulations "/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+        <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:paddingLeft="7px"
+        android:src="@drawable/smiley"
+         />
+        <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:paddingLeft="7px"
+        android:src="@drawable/smiley"
+         />
+        <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:paddingLeft="7px"
+        android:src="@drawable/smiley"
+         />
+        <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:paddingLeft="7px"
+        android:src="@drawable/smiley" />
+        
+        <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:paddingLeft="7px"
+        android:src="@drawable/smiley" />
+</LinearLayout>
+
+    <TextView android:id="@+id/message" android:layout_height="wrap_content"
+        android:textColor="#fff" android:layout_width="wrap_content"
+        android:layout_margin="7dip" 
+        android:textSize="28px"
+        android:gravity="center"/>
+        
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="0.5"
+        android:text="OK" 
+        android:id="@+id/OkButton"/>
+ 
+<!--     <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" 
+        android:paddingRight="7px" 
+        android:text="SAVE" 
+        android:id="@+id/SaveButton"/> -->
+</LinearLayout>
+</LinearLayout>
